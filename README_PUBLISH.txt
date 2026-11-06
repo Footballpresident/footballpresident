@@ -1,48 +1,45 @@
-FOOTBALL PRESIDENT - GITHUB PAGES WEBSITE
-========================================
-Official game site (new repository; does not replace PitchMind Games).
+FOOTBALL PRESIDENT SIMULATION - WEBSITE READY FOR GITHUB PAGES
+=========================================================
+Prepared: 6 November 2026
 
-PUBLISH WITH EXISTING GITHUB ACCOUNT
-1. At https://github.com/new create a PUBLIC repository named: footballpresident
-2. Upload every FILE AND FOLDER FROM INSIDE THIS ZIP to the ROOT of that repository.
-   IMPORTANT: index.html must be directly at the root, not inside an extra folder.
-3. Repository > Settings > Pages > Build and deployment > Deploy from a branch.
-4. Branch main, folder /(root), then Save.
-5. The expected URL AFTER PUBLISHING is:
-   https://flavjoshabani90.github.io/footballpresident/
-   Privacy URL:
-   https://flavjoshabani90.github.io/footballpresident/privacy.html
+Live website presently used for the game:
+https://footballpresident.github.io/footballpresident/
 
-FOR THE ADDRESS https://footballpresident.github.io/
-A separate GitHub account or organization called 'footballpresident' would need to exist
-and the repository must be called 'footballpresident.github.io'. Availability is unverified.
-You cannot create that URL just by renaming a repository in your current account.
+Public documents (after uploading these files):
+- Privacy Policy: https://footballpresident.github.io/footballpresident/privacy.html
+- Terms of Use: https://footballpresident.github.io/footballpresident/terms.html
+- Support: https://footballpresident.github.io/footballpresident/contact.html
 
-ADS (IMPORTANT)
-- Do not invent app-ads.txt contents. Copy the exact authorization row from your AdMob account once issued.
-- For a project site at flavjoshabani90.github.io/footballpresident/, the applicable domain
-  root for app-ads.txt is typically https://flavjoshabani90.github.io/app-ads.txt
-  (the existing top-level GitHub Pages repository), not only the project subfolder.
-- Configure the developer website URL in Google Play and follow AdMob verification instructions.
-- The game is NOT published yet, so no actual Google Play app listing is linked.
-- This website is not live until YOU upload/publish it on GitHub.
-- Before launch, verify Privacy Policy matches the final app's SDK, UMP consent
-  and Play Console Data Safety declaration.
+PUBLISHING THE UPDATE:
+1. Sign into GitHub account/org that actually owns the live website repository.
+2. Open the repository serving the above URL. Do NOT create a new unrelated repository.
+3. Upload/replace the files and directories FROM INSIDE this ZIP in that repository's published root:
+   .nojekyll, index.html, privacy.html, terms.html, contact.html, css/, js/, assets/
+4. Commit the update. Confirm GitHub Pages finishes deploying.
+5. Open each page in a private browser window; check menu and footer Terms/Privacy links.
+6. Enter the PUBLIC terms.html URL for the Trader declaration in Play Console,
+   and the PUBLIC privacy.html URL for the app's Privacy Policy field.
+
+CHANGES INCLUDED:
+- Added terms.html using the site's existing layout and user-approved Terms text.
+- Linked Terms of Use in navigation and footer on all pages.
+- Corrected Privacy Policy's app name and removed internal launch-check footnote.
+- Updated this deployment guide to point to the actual live site, not an old example account.
+- Did not change home-page screenshots, branding, artwork, or Play Store coming-soon status.
+
+IMPORTANT RELEASE AUDIT (DO THIS BEFORE PRODUCTION):
+- Compare Privacy Policy against final APK/AAB: AdMob/UMP and any other SDKs,
+  app permissions, crash reporting, data collected and transmitted, and retention.
+- Confirm Settings > Legal & Privacy links work inside the Android app.
+- Complete Play Console Data Safety consistent with the shipped build.
+- Terms document is practical draft; obtain legal advice if you need formal legal assurance.
+- No personal address or phone number has been placed into these website files.
+  Google Play Trader developer-contact declarations may publish those separately.
+
+NOTE ON APP-ADS.TXT:
+- Do not invent the AdMob authorization line; copy the exact row from AdMob.
+- For a project path such as /footballpresident/, app-ads.txt normally needs to
+  be accessible at the effective developer domain root; follow AdMob's crawler
+  instructions and make sure it resolves over HTTPS.
 
 CONTACT: pitchmindgames@gmail.com
-SOURCE: design based on existing PitchMind Games visual language and local game assets.
-
-
-WEBSITE UPDATE - 27 OCT 2026
-----------------------------
-- Homepage now includes 10 genuine in-game screenshots (optimized as WebP).
-- Screenshot gallery has filters, a fullscreen view, arrows/swipe and keyboard controls.
-- Added Special / Genius talent highlights and spoiler-light Galaxy Cup teaser.
-- Added PitchMind Games logo and actual Dashboard preview.
-- Existing privacy.html and contact.html were preserved unchanged.
-- Official Google Play link is intentionally not added yet (Coming Soon).
-- Assets included in assets/: game-*.webp and pitchmind-games-logo.webp.
-- Some images were captured while testing and may show a test ad or development UI;
-  review before publishing final marketing materials.
-- No JavaScript frameworks or build tooling are required; upload as static files.
-- The original stadium text artwork was replaced on the home page by a real in-game stadium screen.
